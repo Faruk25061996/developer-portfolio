@@ -11,7 +11,11 @@ h1 {
     font-size: 50px;
 }
 
-section {
+h2 {
+    font-size: 40px;
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,4 +47,40 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.c-l {
+    color: deeppink;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 37%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(218, 12, 104), rgb(255, 0, 30));
+    border-image-slice: 1;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(17, 0, 128), rgb(7, 196, 180));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: burlywood;
 }
